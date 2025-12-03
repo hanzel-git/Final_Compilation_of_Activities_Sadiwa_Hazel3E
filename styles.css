@@ -1,0 +1,40 @@
+* {
+  color: #414141;
+  font-family: "PT Serif";
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #0e0101;
+  font-size: 96px;
+  margin: 6rem;
+  padding: 6rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 36px;
+  margin: 2.25rem;
+  padding: 2.25rem;
+  color: #7d7d7d;
+  text-align: center;
+}
+
+.lead {
+  font-size: 21px;
+}
+
+a {
+  color: #ca5e10;
+}
+
+div.container {
+  font-size: 18px;
+  padding: 40px 120px;
+}
+
+img {
+  width: 200px;
+  margin: auto;
+  display: block;
+}
