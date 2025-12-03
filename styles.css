@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5%;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+.logo span {
+  color: #f55d3a;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav ul li a.signup {
+  background: #3d2892;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8%;
+}
+.hero-text h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #f55d3a;
+}
+.hero-text p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  font-family: "IBM Plex Serif", serif;
+}
+.hero-text .btn {
+  background: #3d2892;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.hero-img img {
+  width: 200px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  color: #3d2892;
+}
+.stories {
+  padding: 4rem 8%;
+}
+
+.story-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.story-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.story-text {
+  max-width: 300px;
+  margin-right: 20%;
+}
+
+.story-content,
+h3 {
+  font-size: 28px;
+  color: #3d2892;
+  margin-bottom: 1rem;
+  margin-left: 10%;
+}
+.h2 {
+  font-size: 32px;
+}
+
+.story-content,
+p {
+  margin-bottom: 1rem;
+  margin-left: 10%;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: "IBM Plex Serif";
+}
+.stories-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.story:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.story-image1 {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.story-image1 img {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  left: 8px;
+  border-radius: 8px;
+}
+
+.story-image1::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 50%;
+  height: 100%;
+  border-radius: 1px;
+  z-index: 1;
+}
+.story-image2 {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.story-image2 img {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  right: 8px;
+  border-radius: 8px;
+}
+
+.story-image2::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  width: 50%;
+  height: 100%;
+  border-radius: 2px;
+  z-index: -1;
+}
+.red-bg::before {
+  background-color: red;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.blue-bg::before {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.story-content {
+  flex: 1;
+}
+
+.readmore {
+  color: #f55d3a;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 10%;
+}
+
+.authors-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem 8%;
+  justify-content: space-around;
+}
+.author img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  justify-content: space-around;
+}
+.author h3 {
+  margin-top: 1rem;
+  color: #f55d3a;
+  justify-content: space-around;
+}
+.dare {
+  color: #f55d3a;
+  font-size: 1.8rem;
+}
+.footer-input {
+  gap: 1rem;
+  align-items: center;
+}
+.final {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 160px;
+}
+.com1 {
+  justify-content: center;
+  display: flex;
+}
+.put {
+  margin: 10px;
+  padding: 10px;
+}
+.click {
+  background-color: #3d2892;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 10px;
+  border-radius: 10%;
+  font-size: 1.2rem;
+}
+.custom-shape-divider-bottom-1756476448 {
+  position: absolute;
+  bottom: 100;
+  left: 100;
+  width: 100%;
+  overflow: hidden;
+  line-height: 100%;
+}
+
+.custom-shape-divider-bottom-1756476448 svg {
+  position: relative;
+  display: block;
+  width: calc(5000% + 1.3px);
+  height: 5000px;
+}
+
+.custom-shape-divider-bottom-1756476448 .shape-fill {
+  fill: #130d0d;
+}
+.Fot {
+  background-image: url(images/Vector.png);
+  background-size: cover;
+  padding: 150px;
+  background-repeat: no-repeat;
+}
