@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: clamp(18px);
+}
+.parent {
+  display: flex;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 800px;
+  margin-right: 0;
+}
+.header {
+  top: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.arrow {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 350px;
+}
+.subtext {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-left: 400px;
+  margin-top: 150px;
+}
+h1,
+h3 {
+  font-family: "Fraunces";
+  font-style: normal;
+}
+
+.navbar ul {
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  list-style: none;
+  text-align: center;
+  margin-left: 900px;
+  margin-top: 30px;
+  margin-right: 0;
+  gap: 20px;
+  justify-content: left;
+}
+.contact-btn {
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px;
+  color: black;
+  font-size: 20px;
+  font-family: "Fraunces";
+}
+
+.logo {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 150px;
+}
+
+.img1 {
+  top: 0;
+  bottom: 0;
+}
+.Transfier {
+  background-color: white;
+  text-align: center;
+  display: grid;
+  top: 0;
+  bottom: 0;
+  gap: 320px;
+  grid-template-columns: repeat(2, 400px);
+}
+
+.img2 {
+  top: 0;
+  bottom: 0;
+}
+.stand {
+  background-color: white;
+  display: grid;
+  top: 0;
+  bottom: 0;
+  gap: 550px;
+  flex-direction: column-reverse;
+  grid-template-columns: repeat(2, 300px);
+}
+
+.transtext {
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 100px;
+  align-items: center;
+  text-align: left;
+}
+.t-1 {
+  font-size: 30px;
+  font-family: "Fraunces";
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.p-1 {
+  font-size: 20px;
+}
+
+.learn {
+  font-size: 20px;
+  font-family: "Fraunces";
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+.learn::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+  height: 5px;
+  width: 10px;
+  right: 0px;
+  bottom: 100px;
+}
+.red::before {
+  background-color: red;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.stand2 {
+  text-align: center;
+  margin-top: 150px;
+  align-items: center;
+  text-align: left;
+}
+h4 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+h5 {
+  color: rgb(109, 104, 104);
+}
+.grid-container1 {
+  text-align: center;
+  display: grid;
+  top: 0;
+  bottom: 0;
+  grid-template-columns: repeat(2, 200px);
+  flex-direction: column;
+}
+.grid-container2 {
+  text-align: center;
+  display: grid;
+  top: 0;
+  bottom: 0;
+  grid-template-columns: repeat(2, 200px);
+  flex-direction: column;
+}
+.grid-t {
+  margin-top: 330px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.grid-t h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.grid-container {
+  display: grid;
+  top: 0;
+  bottom: 0;
+  grid-template-columns: repeat(2, 200px);
+  column-gap: 520px;
+}
+
+.grid-tes {
+  display: grid;
+  top: 0;
+  bottom: 0;
+  grid-template-columns: repeat(3, 200px);
+  column-gap: 100px;
+  align-content: center;
+  margin-left: 290px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.grid-t1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.candidate.em {
+  text-align: center;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+}
+.candidate.tom {
+  text-align: center;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+}
+.candidate.jen {
+  text-align: center;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+}
+.em,
+.tom,
+.jen {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+.tes {
+  text-align: center;
+  margin-top: 100px;
+  color: gray;
+}
+.em h4,
+.tom h4,
+.jen h4 {
+  font-family: "Fraunces";
+  font-style: normal;
+}
+.grid-pic {
+  display: flex;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  object-fit: cover;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.pic1-img,
+.pic2-img,
+.pic3-img,
+.pic4-img {
+  object-fit: cover;
+  width: 350px;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.last-p {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  bottom: 0;
+  background-color: rgb(14, 206, 132);
+  object-fit: cover;
+  height: 60vh;
+  width: 216vh;
+}
+
+.refer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.own {
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  color: rgb(9, 139, 78);
+  font-weight: bold;
+  list-style: none;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 50px;
+  gap: 30px;
+  justify-content: center;
+}
+.logo2 {
+  position: absolute;
+  justify-content: center;
+  margin-top: 100px;
+  opacity: 60%;
+}
